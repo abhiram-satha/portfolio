@@ -26,5 +26,11 @@ button.btn {
 
 button.btn:hover {
   background-color: #B56576;
+  border: #B56576 solid;
   color: white;
+}
+
+div.heading-flex {
+  display: flex;
+  justify-content: flex-start;
 }

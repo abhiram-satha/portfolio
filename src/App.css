@@ -39,6 +39,7 @@
 
 body {
   background-color: #355070;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nav-flex {
@@ -57,3 +58,9 @@ div.homepage-flex {
 div.page {
   height: 100vh;
 }
+
+h1.title-style {
+  color: white;
+  border-bottom: 5px solid #B56576;
+}
+
