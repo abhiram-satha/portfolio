@@ -1,0 +1,8 @@
+a.nav-link:hover {
+  color: white;
+  border-bottom: pink 2px solid;
+}
+
+a.nav-link {
+  color: white;
+}
