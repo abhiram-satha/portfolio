@@ -11,24 +11,28 @@ export default function Contact() {
           <input
             type="text"
             placeholder="Name"
-            class="form-control"
+            className="form-control text"
             name="name"
           />
-
+          <br />
           <input
             type="email"
             placeholder="Email Address"
-            class="form-control"
+            className="form-control text"
             name="email"
           />
-          <input
-            type="text"
-            placeholder="Your Message"
-            class="form-control"
-            name="message"
-          />
-
-          <button type="submit" class="btn btn-primary">
+          <br />
+          <div className="message-field">
+            <textarea
+              type="text"
+              rows="5"
+              placeholder="Your Message"
+              className="form-control text message"
+              name="message"
+            />
+          </div>
+          <br />
+          <button type="submit" class="btn">
             Send
           </button>
         </div>
