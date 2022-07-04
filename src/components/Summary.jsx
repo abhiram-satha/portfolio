@@ -12,7 +12,7 @@ export default function Summary() {
         Full-Stack Web Developer. My instructor had once mentioned as Web
         Developers we are creating a better Internet for everyone and I truly
         believe that to be true whether through accessibility or making apps
-        easier to use. And I continue to use this philosphy whenever I work on a
+        easier to use. And I continue to use this philosophy whenever I work on a
         project. Currently seeking my first professional role in the industry.
       </p>
       <p>
