@@ -1,8 +1,8 @@
 export default function Role() {
   return (
-    <>
-      <p>Full-Stack</p>
-      <p> Web Developer</p>
-    </>
+    <div className="role-flex">
+      <h2>Full-Stack</h2>
+      <h2> Web Developer</h2>
+    </div>
   );
 }
