@@ -3,7 +3,7 @@ import Summary from "./Summary";
 
 export default function HomePage () {
   return (
-    <div className="homepage homepage-flex page">
+    <div className="homepage homepage-flex page" id="home">
       <Role />
       <Summary />
     </div>

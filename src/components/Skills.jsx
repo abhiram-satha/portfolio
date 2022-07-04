@@ -15,7 +15,7 @@ export default function Skills() {
         <h1 className="title-style">Skills</h1>
       </div>
       <h6 className="skills-paragraph">
-        The technologies I have experience with:
+        Technologies I have experience with:
       </h6>
 
       <div className="skill-display skills-page">

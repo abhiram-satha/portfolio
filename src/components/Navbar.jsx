@@ -1,4 +1,4 @@
-import "./Navbar.css"
+import "./Navbar.css";
 
 export default function Navbar() {
   return (
@@ -19,7 +19,7 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="nav justify-content-end">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">
+                <a className="nav-link" href="#home">
                   Home
                 </a>
               </li>
@@ -34,7 +34,9 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#contact">Contact</a>
+                <a className="nav-link" href="#contact">
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
