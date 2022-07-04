@@ -1,22 +1,30 @@
-/* div.left-flex {
+div.left-flex {
   display: flex;
   flex-direction: column;
-  position: fixed;
-  top: 50%;
-  left: 0%;
+  justify-content: flex-start;
 }
-*/
+
 img.bottom-nav {
-  width: 4%;
+  width: 3%;
+  background-color: white;
   height: auto;
 } 
 
 .bottom-nav2 {
-  width: 4%;
+  width: 3%;
+  background-color: #0b4264;
   height: auto;
 }
 
 .bottom-nav3 {
-  width: 4%;
+  width: 3%;
+  background-color: #0275b3;
   height: auto;
+}
+
+div.left-fixed-nav {
+  position: fixed;
+  top: 50%;
+  right: 0%;
+  text-align: left;
 }
