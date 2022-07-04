@@ -13,9 +13,9 @@ export default function Skills() {
     <div id="skills" className="skills-page page">
       <div className="heading-flex">
         <h1 className="title-style">Skills</h1>
-        <p className="skills-paragraph">
+        <h6 className="skills-paragraph">
           The technologies I have experience with:
-        </p>
+        </h6>
       </div>
       <div className="skill-display">
         <div className="imgcaption">
@@ -37,17 +37,17 @@ export default function Skills() {
       </div>
 
       <div className="skill-display">
-      <div className="imgcaption">
-        <img className="skill-view" src={psql} alt="PSQL logo" />
-<p>PSQL</p>
-</div>
-<div className="imgcaption">
-        <img className="skill-view" src={Nodejs} alt="Node.js logo" />
-<p>Node.js</p>
-</div>
-<div className="imgcaption">
-        <img className="skill-view" src={Github} alt="Github logo" />
-        <p>GitHub</p>
+        <div className="imgcaption">
+          <img className="skill-view" src={psql} alt="PSQL logo" />
+          <p>PSQL</p>
+        </div>
+        <div className="imgcaption">
+          <img className="skill-view" src={Nodejs} alt="Node.js logo" />
+          <p>Node.js</p>
+        </div>
+        <div className="imgcaption">
+          <img className="skill-view" src={Github} alt="Github logo" />
+          <p>GitHub</p>
         </div>
       </div>
     </div>
