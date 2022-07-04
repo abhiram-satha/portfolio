@@ -9,11 +9,11 @@ export default function Summary() {
         rediscover my long lost passion for creating websites. To better enhance
         and tone my skills, I enrolled into a web development bootcamp to learn
         more about the back-end and database to become a truly rounded
-        Full-Stack Web Developer. My instructor had once mentioned as Web Developers
-        we are creating a better Internet for everyone and I truly believe that
-        to be true whether through accessibilty or making apps easier to use.
-        And I continue to use this philosphy whenever I work on a project. I am
-        currently seeking my first professional role in the industry.
+        Full-Stack Web Developer. My instructor had once mentioned as Web
+        Developers we are creating a better Internet for everyone and I truly
+        believe that to be true whether through accessibilty or making apps
+        easier to use. And I continue to use this philosphy whenever I work on a
+        project. Currently seeking my first professional role in the industry.
       </p>
       <p>
         Feel free to take a look around and send me a message if you would like

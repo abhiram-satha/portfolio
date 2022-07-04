@@ -1,11 +1,22 @@
-div.left-flex {
+/* div.left-flex {
   display: flex;
   flex-direction: column;
   position: fixed;
   top: 50%;
   left: 0%;
 }
-
+*/
 img.bottom-nav {
   width: 4%;
+  height: auto;
+} 
+
+.bottom-nav2 {
+  width: 4%;
+  height: auto;
+}
+
+.bottom-nav3 {
+  width: 4%;
+  height: auto;
 }
