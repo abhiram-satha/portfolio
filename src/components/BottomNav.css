@@ -1,8 +1,8 @@
-div.left-flex {
+/* div.left-flex {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
+} */
 
 img.bottom-nav {
   width: 4%;

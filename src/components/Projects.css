@@ -1,3 +1,17 @@
 #projects {
   padding-top: 5%;
 }
+
+div.project-grid {
+  display: grid;
+}
+
+img.project-image {
+  width: 15%;
+  border-radius: 5%;
+}
+
+div.project-flex {
+  display: flex;
+  flex-direction: column;
+}
