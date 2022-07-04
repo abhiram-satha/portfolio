@@ -1,7 +1,11 @@
+div.left-flex {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 0%;
+}
 
-
-.bottom-nav {
+img.bottom-nav {
   width: 4%;
-  /* background-color: white; */
-  /* border-radius: 50%; */
 }

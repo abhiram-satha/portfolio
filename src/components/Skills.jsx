@@ -10,14 +10,15 @@ import "./Skills.css";
 
 export default function Skills() {
   return (
-    <div id="skills" className="skills-page page">
-      <div className="heading-flex">
+    <div id="skills" className="page">
+      <div className="heading-flex flex-form">
         <h1 className="title-style">Skills</h1>
-        <h6 className="skills-paragraph">
-          The technologies I have experience with:
-        </h6>
       </div>
-      <div className="skill-display">
+      <h6 className="skills-paragraph">
+        The technologies I have experience with:
+      </h6>
+
+      <div className="skill-display skills-page">
         <div className="imgcaption">
           <img className="skill-view" src={HTML} alt="HTML logo" />
           <p>HTML</p>
@@ -36,7 +37,7 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className="skill-display">
+      <div className="skill-display skill-display">
         <div className="imgcaption">
           <img className="skill-view" src={psql} alt="PSQL logo" />
           <p>PSQL</p>
