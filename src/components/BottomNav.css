@@ -5,26 +5,26 @@ div.left-flex {
 }
 
 img.bottom-nav {
-  width: 3%;
+  width: 4%;
   background-color: white;
   height: auto;
 } 
 
 .bottom-nav2 {
-  width: 3%;
+  width: 4%;
   background-color: #0b4264;
   height: auto;
 }
 
 .bottom-nav3 {
-  width: 3%;
+  width: 4%;
   background-color: #0275b3;
   height: auto;
 }
 
 div.left-fixed-nav {
   position: fixed;
-  top: 50%;
+  top: 45%;
   right: 0%;
   text-align: left;
 }
