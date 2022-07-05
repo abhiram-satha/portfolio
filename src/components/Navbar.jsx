@@ -40,6 +40,25 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
+          <div className="nav-right">
+          <ul className="nav ">
+              <li className="nav-item">
+                <a className="nav-link" href="https://github.com/abhiram-satha" target="_blank">
+                  GitHub
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="https://resume.creddle.io/resume/hvf63d7muel" target="_blank">
+                  Resume
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="https://linkedin.com/in/abhiramsatha" target="_blank">
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </div>
