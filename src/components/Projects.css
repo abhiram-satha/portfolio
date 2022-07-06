@@ -21,6 +21,7 @@ div.project-flex {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-basis: 33%;
 }
 
 button.btn {
