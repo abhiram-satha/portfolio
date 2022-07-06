@@ -19,4 +19,18 @@ img.project-image {
 div.project-flex {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button.btn {
+  border: white solid;
+  color: white;
+  width: 30%
+}
+
+button.btn:hover {
+  background-color: #B56576;
+  border: #B56576 solid;
+  color: white;
 }

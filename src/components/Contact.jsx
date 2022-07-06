@@ -37,7 +37,7 @@ export default function Contact() {
               />
             </div>
             <br />
-            <button type="submit" class="btn">
+            <button type="submit" className="btn">
               Send
             </button>
           </div>
