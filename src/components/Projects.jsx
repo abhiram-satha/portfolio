@@ -23,7 +23,15 @@ export default function Projects() {
             <img className="project-image" src={FitWithUs} />
           </a>
           <p>Fit With Us</p>
-          
+          <button>Case Study</button>
+          <div>
+
+          <p>A meal prep app that helps the user decide their meal for the week based on food preferences and weight goals.</p>
+          <p>Backend: Express.js 
+            <br />
+            Front-End: React
+          </p>
+          </div>
         </div>
 
         <div className="project-flex">
@@ -31,7 +39,11 @@ export default function Projects() {
             <img className="project-image" src={GrubGrab} />
           </a>
           <p>Grub Grab</p>
-          
+          <button>Case Study</button>
+          <div>
+
+          <p>A meal prep app that helps the user decide their meal for the week based on preferences and weight goals.</p>
+          </div>
         </div>
 
         <div className="project-flex">
@@ -39,6 +51,11 @@ export default function Projects() {
             <img className="project-image" src={Tinyapp} />
           </a>
           <p>TinyApp</p>
+          <button>Case Study</button>
+          <div>
+
+          <p>A meal prep app that helps the user decide their meal for the week based on preferences and weight goals.</p>
+          </div>
         </div>
       </div>
     </div>
