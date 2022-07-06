@@ -3,8 +3,17 @@ import "./Projects.css";
 import FitWithUs from "./../assets/fitwithus-logo.png";
 import GrubGrab from "./../assets/grubgrab.png";
 import Tinyapp from "./../assets/tinyapp.png";
+import {useState} from 'react';
 
 export default function Projects() {
+
+  const [fitWithUs, setFitWithUs] = useState(false)
+
+  const fitWithUsButton = () => {
+    console.log('clicked')
+    setFitWithUs(!fitWithUs)
+  }
+
   return (
     <div id="projects" className="page">
       <div className="heading-flex flex-form">
@@ -20,11 +29,13 @@ export default function Projects() {
             <img className="project-image" src={FitWithUs} />
           </a>
           <p>Fit With Us</p>
-          <button className="btn">Case Study</button>
+          <button className="btn" onClick={()=>fitWithUsButton()}>Case Study</button>
           <div>
             <p>
               A meal prep app that helps the user decide their meal for the week
-              based on food preferences and weight goals.
+              based on food preferences and weight goals. Includes a community
+              forum where users can create posts and comment. And users can earn
+              badges based on their achievements.
             </p>
             <p>
               Backend: Express.js
@@ -45,6 +56,11 @@ export default function Projects() {
               A food ordering website where customer can add food to their cart
               and checkout, an admin section to the site to add new menu items
               and respond to customers.
+            </p>
+            <p>
+              Backend: Express.js
+              <br />
+              Front-End: HTML
             </p>
           </div>
         </div>
