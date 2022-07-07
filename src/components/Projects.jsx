@@ -10,18 +10,29 @@ const classNames = require("classnames");
 export default function Projects() {
   const [fitWithUs, setFitWithUs] = useState(true);
   const [grubgrab, setGrubGrab] = useState(true);
+  const [tinyApp, setTinyApp] = useState(true);
 
   const fitWithUsButton = () => {
     setFitWithUs(!fitWithUs);
-    setGrubGrab(true)
+    setGrubGrab(true);
+    setTinyApp(true);
   };
 
   const grubGrabButton = () => {
     setGrubGrab(!grubgrab);
+    setFitWithUs(true);
+    setTinyApp(true);
   };
 
-  const fitWithUsDisplay = classNames({ displayFitWithUs: fitWithUs });
-  const grubGrabsDisplay = classNames({ displayFitWithUs: grubgrab });
+  const tinyAppButton = () => {
+    setTinyApp(!tinyApp);
+    setGrubGrab(true);
+    setFitWithUs(true);
+  };
+
+  const fitWithUsDisplay = classNames({ displayProject: fitWithUs });
+  const grubGrabsDisplay = classNames({ displayProject: grubgrab });
+  const tinyAppDisplay = classNames({ displayProject: tinyApp });
 
   return (
     <div id="projects" className="page">
@@ -53,6 +64,12 @@ export default function Projects() {
               <br />
               Front-End: React, CSS, Bulma
             </p>
+            <a
+            href="https://github.com/abhiram-satha/fit_with_us"
+            target="_blank"
+          >
+            More Details
+          </a>
           </div>
         </div>
 
@@ -61,7 +78,9 @@ export default function Projects() {
             <img className="project-image" src={GrubGrab} />
           </a>
           <p>Grub Grab</p>
-          <button className="btn" onClick={() => grubGrabButton()}>Case Study</button>
+          <button className="btn" onClick={() => grubGrabButton()}>
+            Case Study
+          </button>
           <div className={grubGrabsDisplay}>
             <p>
               A food ordering website where customers can add food to their cart
@@ -73,6 +92,9 @@ export default function Projects() {
               <br />
               Front-End: HTML, CSS, SASS
             </p>
+            <a href="https://github.com/abhiram-satha/grubGrab" target="_blank">
+            More Details
+          </a>
           </div>
         </div>
 
@@ -81,8 +103,8 @@ export default function Projects() {
             <img className="project-image" src={Tinyapp} />
           </a>
           <p>TinyApp</p>
-          <button className="btn">Case Study</button>
-          <div>
+          <button className="btn" onClick={() => tinyAppButton()}>Case Study</button>
+          <div className={tinyAppDisplay}>
             <p>
               An app with login encryption where users can get shortened URL
               link that users can use to visit the website. Users are only able
@@ -93,6 +115,9 @@ export default function Projects() {
               <br />
               Front-End: EJS, Bootstrap
             </p>
+            <a href="https://github.com/abhiram-satha/tinyapp" target="_blank">
+            More Details
+          </a>
           </div>
         </div>
       </div>
