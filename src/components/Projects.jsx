@@ -74,7 +74,7 @@ export default function Projects() {
         </div>
 
         <div className="project-flex">
-          <a href="https://github.com/abhiram-satha/grubGrab" target="_blank">
+          <a href="https://github.com/abhiram-satha/grubGrab" target="_blank" className="para-text">
             <img className="project-image" src={GrubGrab} />
           </a>
           <p>Grub Grab</p>
@@ -92,7 +92,7 @@ export default function Projects() {
               <br />
               Front-End: HTML, CSS, SASS
             </p>
-            <a href="https://github.com/abhiram-satha/grubGrab" target="_blank">
+            <a href="https://github.com/abhiram-satha/grubGrab" target="_blank" className="para-text">
             More Details
           </a>
           </div>
@@ -115,7 +115,7 @@ export default function Projects() {
               <br />
               Front-End: EJS, Bootstrap
             </p>
-            <a href="https://github.com/abhiram-satha/tinyapp" target="_blank">
+            <a href="https://github.com/abhiram-satha/tinyapp" target="_blank" className="para-text">
             More Details
           </a>
           </div>
