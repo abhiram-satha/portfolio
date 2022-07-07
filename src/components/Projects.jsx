@@ -3,21 +3,19 @@ import "./Projects.css";
 import FitWithUs from "./../assets/fitwithus-logo.png";
 import GrubGrab from "./../assets/grubgrab.png";
 import Tinyapp from "./../assets/tinyapp.png";
-import {useState} from 'react';
+import { useState } from "react";
 
-const classNames = require('classnames')
+const classNames = require("classnames");
 
 export default function Projects() {
-
   const [fitWithUs, setFitWithUs] = useState(true);
   const [grubgrab, setGrubGrab] = useState(true);
 
   const fitWithUsButton = () => {
-    
-    setFitWithUs(!fitWithUs)
-  }
+    setFitWithUs(!fitWithUs);
+  };
 
-  const fitWithUsDisplay = classNames({displayFitWithUs: fitWithUs})
+  const fitWithUsDisplay = classNames({ displayFitWithUs: fitWithUs });
 
   return (
     <div id="projects" className="page">
@@ -34,7 +32,9 @@ export default function Projects() {
             <img className="project-image" src={FitWithUs} />
           </a>
           <p>Fit With Us</p>
-          <button className="btn" onClick={()=>fitWithUsButton()}>Case Study</button>
+          <button className="btn" onClick={() => fitWithUsButton()}>
+            Case Study
+          </button>
           <div className={fitWithUsDisplay}>
             <p>
               A meal prep app that helps the user decide their meal for the week
@@ -43,9 +43,9 @@ export default function Projects() {
               badges based on their achievements.
             </p>
             <p>
-              Backend: Express.js
+              Backend: Express
               <br />
-              Front-End: React, CSS
+              Front-End: React, CSS, Bulma
             </p>
           </div>
         </div>
@@ -59,13 +59,13 @@ export default function Projects() {
           <div>
             <p>
               A food ordering website where customers can add food to their cart
-              and checkout.  An admin portal where the user can add new menu items
-              and respond to customers and about pick up times.
+              and checkout. An admin portal where the user can add new menu
+              items and respond to customers and about pick up times.
             </p>
             <p>
-              Backend: Express.js
+              Backend: Express
               <br />
-              Front-End: HTML, CSS
+              Front-End: HTML, CSS, SASS
             </p>
           </div>
         </div>
@@ -78,8 +78,14 @@ export default function Projects() {
           <button className="btn">Case Study</button>
           <div>
             <p>
-              A meal prep app that helps the user decide their meal for the week
-              based on preferences and weight goals.
+              An app with login encryption where users can get shortened URL
+              link that users can use to visit the website. Users are only able
+              to get the URLs for websites that they have added.
+            </p>
+            <p>
+              Backend: Express
+              <br />
+              Front-End: EJS, Bootstrap
             </p>
           </div>
         </div>
