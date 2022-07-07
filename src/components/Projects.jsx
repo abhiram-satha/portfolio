@@ -65,16 +65,21 @@ export default function Projects() {
               Front-End: React, CSS, Bulma
             </p>
             <a
-            href="https://github.com/abhiram-satha/fit_with_us"
-            target="_blank"
-          >
-            More Details
-          </a>
+              href="https://github.com/abhiram-satha/fit_with_us"
+              target="_blank"
+              className="para-text"
+            >
+              More Details
+            </a>
           </div>
         </div>
 
         <div className="project-flex">
-          <a href="https://github.com/abhiram-satha/grubGrab" target="_blank" className="para-text">
+          <a
+            href="https://github.com/abhiram-satha/grubGrab"
+            target="_blank"
+            className="para-text"
+          >
             <img className="project-image" src={GrubGrab} />
           </a>
           <p>Grub Grab</p>
@@ -92,9 +97,13 @@ export default function Projects() {
               <br />
               Front-End: HTML, CSS, SASS
             </p>
-            <a href="https://github.com/abhiram-satha/grubGrab" target="_blank" className="para-text">
-            More Details
-          </a>
+            <a
+              href="https://github.com/abhiram-satha/grubGrab"
+              target="_blank"
+              className="para-text"
+            >
+              More Details
+            </a>
           </div>
         </div>
 
@@ -103,7 +112,9 @@ export default function Projects() {
             <img className="project-image" src={Tinyapp} />
           </a>
           <p>TinyApp</p>
-          <button className="btn" onClick={() => tinyAppButton()}>Case Study</button>
+          <button className="btn" onClick={() => tinyAppButton()}>
+            Case Study
+          </button>
           <div className={tinyAppDisplay}>
             <p>
               An app with login encryption where users can get shortened URL
@@ -115,9 +126,13 @@ export default function Projects() {
               <br />
               Front-End: EJS, Bootstrap
             </p>
-            <a href="https://github.com/abhiram-satha/tinyapp" target="_blank" className="para-text">
-            More Details
-          </a>
+            <a
+              href="https://github.com/abhiram-satha/tinyapp"
+              target="_blank"
+              className="para-text"
+            >
+              More Details
+            </a>
           </div>
         </div>
       </div>

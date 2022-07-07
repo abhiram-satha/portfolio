@@ -12,13 +12,13 @@ img.bottom-nav {
 
 .bottom-nav2 {
   width: 4%;
-  background-color: #0b4264;
+  background-color: #1A2238;
   height: auto;
 }
 
 .bottom-nav3 {
   width: 4%;
-  background-color: #0275b3;
+  background-color: #1A2238;
   height: auto;
 }
 
@@ -27,4 +27,5 @@ div.left-fixed-nav {
   top: 45%;
   right: 0%;
   text-align: left;
+  background-color: #1A2238;
 }

@@ -1,7 +1,7 @@
 export default function Summary() {
   return (
     <div className="summary-flex">
-      <h2>Hi. My name is</h2>
+      <h2 className="intro-homepage">Hi. My name is</h2>
       <h1>Abhiram Sathasivam.</h1>
       <p>
         After 7+ years of working professionally as an accountant, I realized I

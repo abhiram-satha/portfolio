@@ -38,14 +38,14 @@
 }
 
 body {
-  background-color: #355070;
+  background-color: #1A2238;
   font-family: 'Roboto', sans-serif;
 }
 
 .nav-flex {
   display: flex;
   flex-direction: row-reverse;
-  color: pink;
+  color: #FF6A3D;
 }
 
 div.homepage-flex {
@@ -61,7 +61,7 @@ div.page {
 
 h1.title-style {
   color: white;
-  border-bottom: 5px solid #B56576;
+  border-bottom: 5px solid #FF6A3D;
 }
 
 .summary-flex {
@@ -71,7 +71,7 @@ h1.title-style {
   width: 60%;
 }
 .summary-flex h1 {
-  color: #B56576;
+  color: #FF6A3D;
 }
 
 .role-flex {
@@ -79,9 +79,14 @@ h1.title-style {
   text-align: right;
   flex-direction: column;
   padding-right: 2%;
+  color: #9DAAF2;
 }
 
 .para-text {
   color: white;
   text-decoration: none;
+}
+
+.intro-homepage {
+  color: #9DAAF2;
 }
