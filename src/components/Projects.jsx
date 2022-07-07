@@ -13,9 +13,15 @@ export default function Projects() {
 
   const fitWithUsButton = () => {
     setFitWithUs(!fitWithUs);
+    setGrubGrab(true)
+  };
+
+  const grubGrabButton = () => {
+    setGrubGrab(!grubgrab);
   };
 
   const fitWithUsDisplay = classNames({ displayFitWithUs: fitWithUs });
+  const grubGrabsDisplay = classNames({ displayFitWithUs: grubgrab });
 
   return (
     <div id="projects" className="page">
@@ -55,8 +61,8 @@ export default function Projects() {
             <img className="project-image" src={GrubGrab} />
           </a>
           <p>Grub Grab</p>
-          <button className="btn">Case Study</button>
-          <div>
+          <button className="btn" onClick={() => grubGrabButton()}>Case Study</button>
+          <div className={grubGrabsDisplay}>
             <p>
               A food ordering website where customers can add food to their cart
               and checkout. An admin portal where the user can add new menu
