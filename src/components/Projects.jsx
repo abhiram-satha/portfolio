@@ -5,14 +5,19 @@ import GrubGrab from "./../assets/grubgrab.png";
 import Tinyapp from "./../assets/tinyapp.png";
 import {useState} from 'react';
 
+const classNames = require('classnames')
+
 export default function Projects() {
 
-  const [fitWithUs, setFitWithUs] = useState(false)
+  const [fitWithUs, setFitWithUs] = useState(true);
+  const [grubgrab, setGrubGrab] = useState(true);
 
   const fitWithUsButton = () => {
-    console.log('clicked')
+    
     setFitWithUs(!fitWithUs)
   }
+
+  const fitWithUsDisplay = classNames({displayFitWithUs: fitWithUs})
 
   return (
     <div id="projects" className="page">
@@ -30,7 +35,7 @@ export default function Projects() {
           </a>
           <p>Fit With Us</p>
           <button className="btn" onClick={()=>fitWithUsButton()}>Case Study</button>
-          <div>
+          <div className={fitWithUsDisplay}>
             <p>
               A meal prep app that helps the user decide their meal for the week
               based on food preferences and weight goals. Includes a community
@@ -40,7 +45,7 @@ export default function Projects() {
             <p>
               Backend: Express.js
               <br />
-              Front-End: React
+              Front-End: React, CSS
             </p>
           </div>
         </div>
@@ -53,14 +58,14 @@ export default function Projects() {
           <button className="btn">Case Study</button>
           <div>
             <p>
-              A food ordering website where customer can add food to their cart
-              and checkout, an admin section to the site to add new menu items
-              and respond to customers.
+              A food ordering website where customers can add food to their cart
+              and checkout.  An admin portal where the user can add new menu items
+              and respond to customers and about pick up times.
             </p>
             <p>
               Backend: Express.js
               <br />
-              Front-End: HTML
+              Front-End: HTML, CSS
             </p>
           </div>
         </div>

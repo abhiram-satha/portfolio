@@ -35,3 +35,7 @@ button.btn:hover {
   border: #B56576 solid;
   color: white;
 }
+
+.displayFitWithUs {
+  display: none;
+}
