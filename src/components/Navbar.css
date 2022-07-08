@@ -22,7 +22,7 @@ a.nav-link {
 .navbar-expand-lg {
   background-color: #1A2238;
   padding-top: -6%;
-  /* margin-top: 0%; */
+  justify-content: inherit;
 }
 
 .navbar-toggler {

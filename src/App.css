@@ -84,3 +84,15 @@ h1.title-style {
 .intro-homepage {
   color: #9DAAF2;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    padding-top: 30px;
+  }
+}
