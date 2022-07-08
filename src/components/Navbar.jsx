@@ -39,8 +39,7 @@ export default function Navbar() {
                 </a>
               </li>
             </ul>
-          </div>
-          <div className="nav-right">
+            <div className="nav-right">
           <ul className="nav ">
               <li className="nav-item">
                 <a className="nav-link" href="https://github.com/abhiram-satha" target="_blank">
@@ -59,6 +58,8 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
+          </div>
+         
         </div>
       </nav>
     </div>

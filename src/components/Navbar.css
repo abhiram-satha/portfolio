@@ -6,3 +6,7 @@ a.nav-link:hover {
 a.nav-link {
   color: white;
 }
+
+.nav-right {
+  justify-content: flex-end;
+}
