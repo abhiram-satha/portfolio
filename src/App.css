@@ -42,12 +42,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.nav-flex {
-  display: flex;
-  flex-direction: row-reverse;
-  color: #FF6A3D;
-}
-
 div.homepage-flex {
   display: flex;
   flex-direction: row;

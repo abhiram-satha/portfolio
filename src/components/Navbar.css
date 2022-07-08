@@ -10,3 +10,21 @@ a.nav-link {
 .nav-right {
   justify-content: flex-end;
 }
+
+.nav-flex {
+  display: flex;
+  flex-direction: row-reverse;
+  color: #FF6A3D;
+  background-color: #1A2238;
+  z-index: 2;
+}
+
+.container-fluid {
+  background-color: #1A2238;
+  padding-top: -6%;
+  /* margin-top: 0%; */
+}
+
+.navbar-toggler {
+  background-color: #9DAAF2;
+}
