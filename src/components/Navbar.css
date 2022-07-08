@@ -19,7 +19,7 @@ a.nav-link {
   z-index: 2;
 }
 
-.container-fluid {
+.navbar-expand-lg {
   background-color: #1A2238;
   padding-top: -6%;
   /* margin-top: 0%; */
