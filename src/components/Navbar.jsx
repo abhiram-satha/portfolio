@@ -39,8 +39,10 @@ export default function Navbar() {
                 </a>
               </li>
             </ul>
-            <div className="nav-right">
-              <ul className="nav ">
+           
+          </div>
+          <div className="nav-right">
+              <ul className="nav nav-right">
                 <li className="nav-item">
                   <a
                     className="nav-link"
@@ -70,7 +72,6 @@ export default function Navbar() {
                 </li>
               </ul>
             </div>
-          </div>
         </div>
       </nav>
     </div>

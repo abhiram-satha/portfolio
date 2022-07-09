@@ -94,5 +94,6 @@ h1.title-style {
 @media screen and (max-width: 500px) {
   body {
     padding-top: 30px;
+    font-size: 1em;
   }
 }
