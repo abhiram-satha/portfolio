@@ -89,6 +89,10 @@ h1.title-style {
   body {
     padding-top: 20px;
   }
+
+  div.project-grid {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 500px) {

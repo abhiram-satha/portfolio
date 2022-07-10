@@ -39,3 +39,10 @@ button.btn:hover {
 .displayProject {
   display: none;
 }
+
+@media screen and (max-width: 600px) {
+
+  div.project-grid {
+    flex-direction: column;
+  }
+}
