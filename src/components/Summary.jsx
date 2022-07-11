@@ -22,7 +22,7 @@ export default function Summary() {
         Checkout my portfolio below. If you're interested in my work, drop me a
         <a className="para-text" href="#contact">
           {" "}
-          note
+          message
         </a>
         .
       </p>
