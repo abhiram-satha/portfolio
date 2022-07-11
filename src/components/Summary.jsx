@@ -14,11 +14,17 @@ export default function Summary() {
         better internet for everyone. As my mantra, I practice this everyday
         whether that be through making websites I develop accessible or
         improving the usability of my apps.
-
-      <br />
-      <br />
+        <br />
+        When I am not starring at a computer screen you can usually find me
+        outdoors hiking or hanging out with my friends.
+        <br />
+        <br />
         Checkout my portfolio below. If you're interested in my work, drop me a
-        <a className="para-text" href="#contact"> note</a>.
+        <a className="para-text" href="#contact">
+          {" "}
+          note
+        </a>
+        .
       </p>
     </div>
   );
