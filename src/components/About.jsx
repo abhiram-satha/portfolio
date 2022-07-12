@@ -1,6 +1,11 @@
+import "./About.css"
+
 export default function About() {
   return (
     <div className="summary-flex page" id="about">
+      <div className="heading-flex flex-form">
+        <h1 className="title-style">About</h1>
+      </div>
       <p>
         After 7+ years of working professionally as an accountant, I realized I
         was no longer fulfilled in the industry. I decided to uncover my long
@@ -15,7 +20,7 @@ export default function About() {
         <br />
         When I am not starring at a computer screen you can usually find me
         outdoors hiking or hanging out with my friends.
-        </p>
+      </p>
     </div>
   );
 }
