@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/About";
 import BottomNav from "./components/BottomNav";
 
 import Contact from "./components/Contact";
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
 
       <HomePage />
+      <About />
       <Projects />
       <Skills />
       <Contact />
