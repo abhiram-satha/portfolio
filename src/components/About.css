@@ -1,6 +1,9 @@
 h1.title-style {
   color: white;
 }
-#about {
-  text-align: center;
+.summary-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
