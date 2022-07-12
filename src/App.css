@@ -101,3 +101,11 @@ h1.title-style {
     font-size: 1em;
   }
 }
+
+#home {
+  background-color: white;
+}
+
+.summary-flex p {
+  color: #1A2238;
+}
