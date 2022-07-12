@@ -6,7 +6,7 @@ export default function Summary() {
       <p>
         After 7+ years of working professionally as an accountant, I realized I
         was no longer fulfilled in the industry. I decided to uncover my long
-        lost passion for web development prior to my accounting days. After
+        lost passion for development prior to my accounting days. After
         enrolling in a web development bootcamp to enhance my skills and sharpen
         my craft, where I learned more about the back-end and databases to
         become a truly rounded Full Stack Web Developer.
