@@ -77,7 +77,7 @@ h1.title-style {
 }
 
 .para-text {
-  color: #1A2238;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -103,9 +103,9 @@ h1.title-style {
 }
 
 #home {
-  background-color: white;
+  background-color: #1A2238;
 }
 
 .summary-flex p {
-  color: #1A2238;
+  color: #ffffff;
 }

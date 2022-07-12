@@ -1,8 +1,6 @@
 export default function About() {
   return (
-    <div className="summary-flex">
-      <h2 className="intro-homepage">Hi. My name is</h2>
-      <h1>Abhiram Sathasivam.</h1>
+    <div className="summary-flex page" id="about">
       <p>
         After 7+ years of working professionally as an accountant, I realized I
         was no longer fulfilled in the industry. I decided to uncover my long
@@ -17,15 +15,7 @@ export default function About() {
         <br />
         When I am not starring at a computer screen you can usually find me
         outdoors hiking or hanging out with my friends.
-        <br />
-        <br />
-        Checkout my portfolio below. If you're interested in my work, drop me a
-        <a className="para-text" href="#contact">
-          {" "}
-          message
-        </a>
-        .
-      </p>
+        </p>
     </div>
   );
 }
