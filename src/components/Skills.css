@@ -5,6 +5,11 @@
   background-color: #1A2238;
 }
 
+.skill-view:hover{
+  width: 120px;
+  height: 120px;
+}
+
 div.skill-display {
   display: flex;
   justify-content: space-evenly;
