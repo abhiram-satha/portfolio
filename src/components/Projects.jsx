@@ -56,7 +56,7 @@ export default function Projects() {
             modal
             nested
           >
-          <p>
+            <p>
               A meal prep app that helps the user decide their meal for the week
               based on food preferences and weight goals. Includes a community
               forum where users can create posts and comment. And users can earn
@@ -67,19 +67,18 @@ export default function Projects() {
               <br />
               Front-End: React, CSS, Bulma
             </p>
-            <a
-              href="https://github.com/abhiram-satha/fit_with_us"
-              target="_blank"
-              className="para-text"
-            >
-              More Details
-            </a>
-             
+            <button className="btn">
+              <a
+                href="https://github.com/abhiram-satha/fit_with_us"
+                target="_blank"
+                className="para-text"
+              >
+                More Details
+              </a>
+            </button>
           </Popup>
 
-          <div className={fitWithUsDisplay}>
-            
-          </div>
+          <div className={fitWithUsDisplay}></div>
         </div>
 
         <div className="project-flex">
@@ -91,27 +90,33 @@ export default function Projects() {
             <img className="project-image" src={GrubGrab} />
           </a>
           <p>Grub Grab</p>
-          <button className="btn" onClick={() => grubGrabButton()}>
-            Case Study
-          </button>
-          <div className={grubGrabsDisplay}>
-            <p>
-              A food ordering website where customers can add food to their cart
-              and checkout. An admin portal where the user can add new menu
-              items and respond to customers and about pick up times.
-            </p>
-            <p>
-              Backend: Express
-              <br />
-              Front-End: HTML, CSS, SASS
-            </p>
-            <a
-              href="https://github.com/abhiram-satha/grubGrab"
-              target="_blank"
-              className="para-text"
+         
+          <div>
+            <Popup
+              trigger={<button className="button btn"> See Details </button>}
+              modal
+              nested
             >
-              More Details
-            </a>
+              <p>
+                A food ordering website where customers can add food to their
+                cart and checkout. An admin portal where the user can add new
+                menu items and respond to customers and about pick up times.
+              </p>
+              <p>
+                Backend: Express
+                <br />
+                Front-End: HTML, CSS, SASS
+              </p>
+              <button className="btn">
+                <a
+                  href="https://github.com/abhiram-satha/grubGrab"
+                  target="_blank"
+                  className="para-text"
+                >
+                  More Details
+                </a>
+              </button>
+            </Popup>
           </div>
         </div>
 

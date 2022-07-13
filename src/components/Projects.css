@@ -50,6 +50,8 @@ button.btn:hover {
 
 .modal {
   font-size: 12px;
+  background-color: pink;
+  color: red
 }
 .modal > .header {
   width: 100%;
@@ -77,7 +79,11 @@ button.btn:hover {
   right: -10px;
   top: -10px;
   font-size: 24px;
-  background: #ffffff;
+  background: #000000;
   border-radius: 18px;
   border: 1px solid #cfcece;
+}
+
+#popup-2.popup-content {
+  background-color: #1A2238;
 }
