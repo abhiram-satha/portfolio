@@ -27,7 +27,6 @@ div.project-flex {
 button.btn {
   border: white solid;
   color: white;
-  width: 30%
 }
 
 button.btn:hover {
@@ -85,5 +84,9 @@ button.btn:hover {
 }
 
 #popup-2.popup-content {
+  background-color: #1A2238;
+}
+
+#popup-4.popup-content {
   background-color: #1A2238;
 }
