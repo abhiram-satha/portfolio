@@ -1,9 +1,13 @@
 h1.title-style {
   color: white;
 }
-.summary-flex {
+
+#about {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width:70%;
+  margin-left: 15%;
+  text-align: left;
 }
