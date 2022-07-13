@@ -125,11 +125,13 @@ export default function Projects() {
             <img className="project-image" src={Tinyapp} />
           </a>
           <p>TinyApp</p>
-          <button className="btn" onClick={() => tinyAppButton()}>
-            Case Study
-          </button>
-          <div className={tinyAppDisplay}>
-            <p>
+          <div>
+          <Popup
+              trigger={<button className="button btn"> See Details </button>}
+              modal
+              nested
+            >
+               <p>
               An app with login encryption where users can get shortened URL
               link that users can use to visit the website. Users are only able
               to get the URLs for websites that they have added.
@@ -139,13 +141,18 @@ export default function Projects() {
               <br />
               Front-End: EJS, Bootstrap
             </p>
-            <a
+              <button className="btn">
+              <a
               href="https://github.com/abhiram-satha/tinyapp"
               target="_blank"
               className="para-text"
             >
               More Details
             </a>
+              </button>
+            </Popup>
+           
+           
           </div>
         </div>
       </div>
