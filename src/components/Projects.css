@@ -24,6 +24,11 @@ div.project-flex {
   flex-basis: 33%;
 }
 
+.btn {
+  border: white solid;
+  color: white;
+}
+
 button.btn {
   border: white solid;
   color: white;

@@ -85,7 +85,7 @@ export default function Projects() {
           <a
             href="https://github.com/abhiram-satha/grubGrab"
             target="_blank"
-            className="para-text"
+            className="para-text "
           >
             <img className="project-image" src={GrubGrab} />
           </a>
@@ -145,7 +145,7 @@ export default function Projects() {
               <a
               href="https://github.com/abhiram-satha/tinyapp"
               target="_blank"
-              className="para-text"
+              className="para-text btn"
             >
               More Details
             </a>
