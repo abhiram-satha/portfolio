@@ -2,12 +2,12 @@ import "./About.css"
 
 export default function About() {
   return (
-    <div className="page" id="about">
+    <div className=" about page" id="about">
       <div className="heading-flex flex-form">
         <h1 className="title-style">About</h1>
       </div>
       <div>
-      <p>
+      <p className="about-paragraph">
         After 7+ years of working professionally as an accountant, I realized I
         was no longer fulfilled in the industry. I decided to uncover my long
         lost passion for development prior to my accounting days. After

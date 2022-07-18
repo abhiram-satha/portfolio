@@ -1,5 +1,5 @@
 h1.title-style {
-  color: white;
+  color: #1A2238;
 }
 
 #about {
@@ -10,4 +10,12 @@ h1.title-style {
   width:70%;
   margin-left: 15%;
   text-align: left;
+  
+  background-color: #ffffff;
+}
+
+p.about-paragraph {
+  width: 100%;
+  color: #1A2238;
+  padding-top: 5%;
 }
