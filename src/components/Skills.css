@@ -35,4 +35,9 @@ div.imgcaption {
 
 #skills {
   padding-top: 5%;
+  background-color: #1A2238;
+}
+
+.title-style.skills-title {
+  color: #ffffff;
 }

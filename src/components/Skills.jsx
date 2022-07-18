@@ -12,7 +12,7 @@ export default function Skills() {
   return (
     <div id="skills" className="page">
       <div className="heading-flex flex-form">
-        <h1 className="title-style">Skills</h1>
+        <h1 className="title-style skills-title">Skills</h1>
       </div>
       <h6 className="skills-paragraph">
         Technologies I have experience with:
