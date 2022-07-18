@@ -19,8 +19,9 @@ textarea {
   border-radius: 0;
 }
 
-button.btn {
-  border: white solid;
+button.contact-button {
+  background-color: #FF6A3D;
+  border: #FF6A3D solid;
   color: white;
 }
 
