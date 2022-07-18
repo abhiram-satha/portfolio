@@ -25,12 +25,6 @@ button.contact-button {
   color: white;
 }
 
-button.btn:hover {
-  background-color: #FF6A3D;
-  border: #FF6A3D solid;
-  color: white;
-}
-
 div.heading-flex {
   display: flex;
   justify-content: flex-start;
