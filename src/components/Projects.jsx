@@ -3,16 +3,12 @@ import "./Projects.css";
 import FitWithUs from "./../assets/fitwithus-logo.png";
 import GrubGrab from "./../assets/grubgrab.png";
 import Tinyapp from "./../assets/tinyapp.png";
-import { useState } from "react";
-import Popup from "reactjs-popup";
+import NewLink from "./../assets/link.png";
 import "reactjs-popup/dist/index.css";
 
 const classNames = require("classnames");
 
 export default function Projects() {
-
-
-
   return (
     <div id="projects" className="">
       <div className="heading-flex flex-form">
@@ -49,10 +45,10 @@ export default function Projects() {
                 className="para-text"
               >
                 Open in GitHub
+                <img src={NewLink}></img>
               </a>
             </button>
           </div>
-          
         </div>
 
         <div className="project-flex grub-grab">
@@ -80,6 +76,7 @@ export default function Projects() {
                 className="para-text"
               >
                 Open in GitHub
+                <img src={NewLink}></img>
               </a>
             </button>
           </div>
@@ -110,6 +107,7 @@ export default function Projects() {
                 className="para-text"
               >
                 Open in GitHub
+                <img src={NewLink}></img>
               </a>
             </button>
           </div>
