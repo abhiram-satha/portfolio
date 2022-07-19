@@ -6,8 +6,6 @@ import Tinyapp from "./../assets/tinyapp.png";
 import NewLink from "./../assets/link.png";
 import "reactjs-popup/dist/index.css";
 
-const classNames = require("classnames");
-
 export default function Projects() {
   return (
     <div id="projects" className="">
