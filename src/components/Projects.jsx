@@ -51,18 +51,12 @@ export default function Projects() {
             <img className="project-image" src={FitWithUs} />
           </a>
           <p>Fit With Us</p>
-          <Popup
-            trigger={<button className="button btn"> See Details </button>}
-            modal
-            nested
-          >
             <p>
               A meal prep app that helps the user decide their meal for the week
               based on food preferences and weight goals. Includes a community
               forum where users can create posts and comment. And users can earn
               badges based on their achievements.
-            </p>
-            <p>
+           
               Backend: Express
               <br />
               Front-End: React, CSS, Bulma
@@ -73,10 +67,9 @@ export default function Projects() {
                 target="_blank"
                 className="para-text"
               >
-                More Details
+                Open in GitHub
               </a>
             </button>
-          </Popup>
 
           <div className={fitWithUsDisplay}></div>
         </div>
