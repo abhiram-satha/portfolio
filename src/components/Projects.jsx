@@ -43,7 +43,7 @@ export default function Projects() {
       </div>
 
       <div className="project-grid">
-        <div className="project-flex">
+        <div className="project-flex fit-with-us">
           <a
             href="https://github.com/abhiram-satha/fit_with_us"
             target="_blank"
