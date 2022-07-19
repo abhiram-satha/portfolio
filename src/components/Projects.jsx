@@ -10,34 +10,11 @@ import "reactjs-popup/dist/index.css";
 const classNames = require("classnames");
 
 export default function Projects() {
-  const [fitWithUs, setFitWithUs] = useState(true);
-  const [grubgrab, setGrubGrab] = useState(true);
-  const [tinyApp, setTinyApp] = useState(true);
 
-  const fitWithUsButton = () => {
-    setFitWithUs(!fitWithUs);
-    setGrubGrab(true);
-    setTinyApp(true);
-  };
 
-  const grubGrabButton = () => {
-    setGrubGrab(!grubgrab);
-    setFitWithUs(true);
-    setTinyApp(true);
-  };
-
-  const tinyAppButton = () => {
-    setTinyApp(!tinyApp);
-    setGrubGrab(true);
-    setFitWithUs(true);
-  };
-
-  const fitWithUsDisplay = classNames({ displayProject: fitWithUs });
-  const grubGrabsDisplay = classNames({ displayProject: grubgrab });
-  const tinyAppDisplay = classNames({ displayProject: tinyApp });
 
   return (
-    <div id="projects" className="page">
+    <div id="projects" className="">
       <div className="heading-flex flex-form">
         <h1 className="title-style">Projects</h1>
       </div>
@@ -75,79 +52,66 @@ export default function Projects() {
               </a>
             </button>
           </div>
-          <div className={fitWithUsDisplay}></div>
+          
         </div>
 
-        <div className="project-flex">
-          <a
-            href="https://github.com/abhiram-satha/grubGrab"
-            target="_blank"
-            className="para-text "
-          >
-            <img className="project-image" src={GrubGrab} />
-          </a>
-          <p>Grub Grab</p>
-
-          <div>
-            <Popup
-              trigger={<button className="button btn"> See Details </button>}
-              modal
-              nested
-            >
-              <p>
-                A food ordering website where customers can add food to their
-                cart and checkout. An admin portal where the user can add new
-                menu items and respond to customers and about pick up times.
-              </p>
-              <p>
-                Backend: Express
-                <br />
-                Front-End: HTML, CSS, SASS
-              </p>
-              <button className="btn">
-                <a
-                  href="https://github.com/abhiram-satha/grubGrab"
-                  target="_blank"
-                  className="para-text"
-                >
-                  More Details
-                </a>
-              </button>
-            </Popup>
+        <div className="project-flex grub-grab">
+          <div className="image-and-title">
+            <a href="https://github.com/abhiram-satha/grubGrab" target="_blank">
+              <img className="project-image" src={GrubGrab} />
+            </a>
+            <h5 className="project-para title-project">Grub Grab</h5>
+          </div>
+          <div className="project-sum-link">
+            <p className="project-para project-sum">
+              A food ordering website where customers can add food to their cart
+              and checkout. An admin portal where the user can add new menu
+              items and respond to customers and about pick up times.
+              <br />
+              <br />
+              Backend: Express
+              <br />
+              Front-End: HTML, CSS, SASS
+            </p>
+            <button className="btn">
+              <a
+                href="https://github.com/abhiram-satha/grubGrab"
+                target="_blank"
+                className="para-text"
+              >
+                Open in GitHub
+              </a>
+            </button>
           </div>
         </div>
 
-        <div className="project-flex">
-          <a href="https://github.com/abhiram-satha/tinyapp" target="_blank">
-            <img className="project-image" src={Tinyapp} />
-          </a>
-          <p>TinyApp</p>
-          <div>
-            <Popup
-              trigger={<button className="button btn"> See Details </button>}
-              modal
-              nested
-            >
-              <p>
-                An app with login encryption where users can get shortened URL
-                link that users can use to visit the website. Users are only
-                able to get the URLs for websites that they have added.
-              </p>
-              <p>
-                Backend: Express
-                <br />
-                Front-End: EJS, Bootstrap
-              </p>
-              <button className="btn">
-                <a
-                  href="https://github.com/abhiram-satha/tinyapp"
-                  target="_blank"
-                  className="para-text btn"
-                >
-                  More Details
-                </a>
-              </button>
-            </Popup>
+        <div className="project-flex tiny-url">
+          <div className="image-and-title">
+            <a href="https://github.com/abhiram-satha/tinyapp" target="_blank">
+              <img className="project-image" src={Tinyapp} />
+            </a>
+            <h5 className="project-para title-project">TinyApp</h5>
+          </div>
+          <div className="project-sum-link">
+            <p className="project-para project-sum">
+              An app with login encryption where users can get shortened URL
+              link that users can use to visit the website. Users are only able
+              to get the URLs for websites that they have added.
+              <br />
+              <br />
+              Backend: Express
+              <br />
+              Front-End: EJS, Bootstrap
+            </p>
+            <button className="btn">
+              <a
+                href="https://github.com/abhiram-satha/tinyapp"
+                target="_blank"
+                className="para-text"
+              >
+                Open in GitHub
+              </a>
+            </button>
           </div>
         </div>
       </div>
