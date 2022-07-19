@@ -41,55 +41,6 @@ button.btn {
   }
 }
 
-
-.modal {
-  font-size: 12px;
-  background-color: pink;
-  color: red
-}
-.modal > .header {
-  width: 100%;
-  border-bottom: 1px solid gray;
-  font-size: 18px;
-  text-align: center;
-  padding: 5px;
-}
-.modal > .content {
-  width: 100%;
-  padding: 10px 5px;
-}
-.modal > .actions {
-  width: 100%;
-  padding: 10px 5px;
-  margin: auto;
-  text-align: center;
-}
-.modal > .close {
-  cursor: pointer;
-  position: absolute;
-  display: block;
-  padding: 2px 5px;
-  line-height: 20px;
-  right: -10px;
-  top: -10px;
-  font-size: 24px;
-  background: #000000;
-  border-radius: 18px;
-  border: 1px solid #cfcece;
-}
-
-#popup-2.popup-content {
-  background-color: #1A2238;
-}
-
-#popup-4.popup-content {
-  background-color: #1A2238;
-}
-
-#popup-70.popup-content {
-  background-color: #1A2238;
-}
-
 .fit-with-us {
   background: linear-gradient(212.88deg, rgba(0, 0, 0, 0.2) 44.03%, rgba(0, 0, 0, 0) 86.38%), linear-gradient(0deg, rgba(26, 34, 56, 0.55), rgba(26, 34, 56, 0.55)), linear-gradient(293.64deg, rgba(26, 34, 56, 0.59) -0.02%, rgba(255, 106, 61, 0.177) 100%),
   url(../assets/grocery.jpg) no-repeat 100% center;
@@ -100,4 +51,28 @@ button.btn {
   background-size: cover;
   height: 100%;
   padding: 5% 0;
+}
+.image-and-title {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+}
+
+.title-project {
+  padding-top: 10%;
+}
+
+.project-para {
+  color: white;
+}
+
+.project-sum-link {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0 7%;
+}
+
+.project-sum-link button{
+  width: 20%;
 }
