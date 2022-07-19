@@ -30,11 +30,6 @@ div.project-flex {
 }
 
 button.btn {
-  border: white solid;
-  color: white;
-}
-
-button.btn:hover {
   background-color: #FF6A3D;
   border: #FF6A3D solid;
   color: white;
