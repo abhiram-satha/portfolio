@@ -39,12 +39,7 @@ button.btn {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
 
-  div.project-grid {
-    flex-direction: column;
-  }
-}
 
 .fit-with-us {
   background: linear-gradient(212.88deg, rgba(0, 0, 0, 0.2) 44.03%, rgba(0, 0, 0, 0) 86.38%), linear-gradient(0deg, rgba(26, 34, 56, 0.55), rgba(26, 34, 56, 0.55)), linear-gradient(293.64deg, rgba(26, 34, 56, 0.59) -0.02%, rgba(255, 106, 61, 0.177) 100%),
@@ -110,4 +105,15 @@ button.btn {
   background-size: cover;
   height: 100%;
   padding: 5% 0;
+}
+
+@media screen and (max-width: 600px) {
+
+  div.project-grid {
+    flex-direction: column;
+  }
+
+  .project-sum-link button{
+    width: 60%;
+  }
 }
