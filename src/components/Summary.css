@@ -1,0 +1,22 @@
+.summary-flex {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 60%;
+}
+.summary-flex h1 {
+  color: #FF6A3D;
+}
+
+.intro-homepage {
+  color: #9DAAF2;
+}
+
+.homepage-flex {
+  background-image: url(../assets/selfimage.JPG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
