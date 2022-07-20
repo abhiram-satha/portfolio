@@ -65,7 +65,7 @@ export default function Projects() {
               <br />
               Backend: Express
               <br />
-              Front-End: HTML, CSS, SASS
+              Front-End: HTML, CSS, SASS, jQuery
             </p>
             <button className="btn">
               <a
