@@ -12,7 +12,7 @@ export default function Contact() {
           action="https://getform.io/f/4276c753-0626-4eae-9a24-8fd9179f6ca4"
           method="POST"
         >
-          <div class="mb-3">
+          <div className="mb-3">
             <input
               type="text"
               placeholder="Name"

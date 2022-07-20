@@ -22,7 +22,7 @@ export default function About() {
         improving the usability of my apps.
         <br />
         <br />
-        When I am not starring at a computer screen you can usually find me
+        When I am not staring at a computer screen you can usually find me
         outdoors hiking or hanging out with my friends.
       </p>
       </div>
