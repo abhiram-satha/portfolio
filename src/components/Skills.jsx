@@ -5,6 +5,9 @@ import React from "../assets/react-logo.png";
 import Github from "../assets/github-logo.png";
 import Nodejs from "../assets/node-js-logo.png";
 import psql from "../assets/postgresql-logo.png";
+import Jira from "../assets/jira-logo.png";
+import Jenkins from "../assets/jenkins-logo.png"
+import Typescript from "../assets/typescript-logo.png"
 
 import "./Skills.css";
 
@@ -32,6 +35,10 @@ export default function Skills() {
           <p>JavaScript</p>
         </div>
         <div className="imgcaption">
+          <img className="skill-view" src={Typescript} alt="TypeScript logo" />
+          <p>TypeScript</p>
+        </div>
+        <div className="imgcaption">
           <img className="skill-view" src={React} alt="React logo" />
           <p>React</p>
         </div>
@@ -50,6 +57,14 @@ export default function Skills() {
           <img className="skill-view" src={Github} alt="Github logo" />
           <p>GitHub</p>
         </div>
+        <div className="imgcaption">
+          <img className="skill-view" src={Jira} alt="Jira logo" />
+          <p>Jira</p>
+        </div>
+        {/* <div className="imgcaption">
+          <img className="skill-view" src={Jenkins} alt="Jenkins logo" />
+          <p>Jenkins</p>
+        </div> */}
       </div>
     </div>
   );
